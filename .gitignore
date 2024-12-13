@@ -1,0 +1,12 @@
+venv
+**/__pycache__
+.pytest_cache
+.coverage
+# Log
+app.log
+db.sqlite3
+# Ignore all files in buyorder/migrations/
+buyorder/migrations/*
+# But do not ignore __init__.py
+!buyorder/migrations/__init__.py
+*.ipynb
